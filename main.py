@@ -5,7 +5,7 @@ import random
 computer = random.choice([1,-1,0])
 
 #you take input from user
-you = input("Please choose only \n Stone(-1) : s \n Paper(1) : p \n Scissor(0) : s \n Enter your choice here: ")
+you = input("Please choose only \n Stone(-1) : s \n Paper(1) : p \n Scissor(0) : c \n Enter your choice here: ")
 
 #youDict is a Dictionary to store keypairs
 youDict = {"s":1, "p":-1, "c":0}
